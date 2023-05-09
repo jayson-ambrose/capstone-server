@@ -7,6 +7,7 @@ from sqlalchemy import MetaData
 from flask_bcrypt import Bcrypt
 
 import os
+import psycopg2
 
 #Some of this may change for deployment
 app = Flask(__name__)
